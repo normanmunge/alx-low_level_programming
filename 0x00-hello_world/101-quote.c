@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
 * main-Prints out the last part of quote in std error
 * Return: 1 if success
