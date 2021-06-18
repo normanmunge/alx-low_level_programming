@@ -12,7 +12,7 @@ char str[] = "0123456789abcdef";
 
 while (str[i])
 {
-putchar([str[i]]);
+putchar(str[i]);
 i++;
 }
 putchar('\n');
