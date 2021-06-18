@@ -3,8 +3,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
-/* main-Entry point
-/* if condition statements in c
+* main-Entry point
+* 
 */
 int main(void)
 {
