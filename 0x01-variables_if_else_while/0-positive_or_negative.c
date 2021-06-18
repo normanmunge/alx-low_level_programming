@@ -5,7 +5,7 @@
 /**
 * main-Entry point
 *
-* Returns n value as positive, negative or 0
+* Return: Always 0 (Success)
 */
 int main(void)
 {
