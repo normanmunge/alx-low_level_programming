@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 /**
 * main-Entry point
 *
@@ -6,8 +7,14 @@
 */
 int main(void)
 {
-char *hexadec = "0123456789ABCDEF";
-putchar(tolower(*hexadec));
+int i = 0;
+char str[] = "0123456789ABCDEF";
+
+while (str[i])
+{
+putchar(tolower[str[i]]);
+i++;
+}
 putchar('\n');
 return (0);
 }
