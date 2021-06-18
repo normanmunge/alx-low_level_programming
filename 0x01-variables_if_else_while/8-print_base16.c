@@ -8,11 +8,11 @@
 int main(void)
 {
 int i = 0;
-char str[] = "0123456789ABCDEF";
+char *str[] = "0123456789ABCDEF";
 
 while (str[i])
 {
-putchar(tolower[str[i]]);
+putchar(tolower[*str[i]]);
 i++;
 }
 putchar('\n');
