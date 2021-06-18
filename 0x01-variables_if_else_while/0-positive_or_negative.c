@@ -4,6 +4,8 @@
 #include <stdio.h>
 /**
 * main-Entry point
+*
+* Returns n value as positive, negative or 0
 */
 int main(void)
 {
