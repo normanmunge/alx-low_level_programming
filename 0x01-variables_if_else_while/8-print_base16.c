@@ -6,8 +6,9 @@
 */
 int main(void)
 {
-char hexadec = "0123456789ABCDEF";
-putchar(tolower(hexadec));
-putchar("\n");
+char *hexadec = "0123456789ABCDEF";
+putchar(tolower(*hexadec));
+putchar('\n');
 return (0);
 }
+
