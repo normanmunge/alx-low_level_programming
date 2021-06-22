@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "holberton.h"
 /**
-* print_alphabet - Function to print alphabet
+* print_alphabet_x10 - Function to print alphabet
 *
 * Description: Program to print alphabet in lowercase followed by new line.
 * Return: Always 0 (Success)
