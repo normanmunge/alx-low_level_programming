@@ -1,7 +1,6 @@
 #include <stdio.h>
-#include <string.h>
 #include "holberton.h"
-/**
+/*
 * main-Entry point
 *
 * Description: a program to print holberton from pointer
