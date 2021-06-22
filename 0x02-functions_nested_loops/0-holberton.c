@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 #include "holberton.h"
 /**
 * main-Entry point
@@ -11,7 +12,7 @@ int main(void)
 {
 char holberton[] = "Holberton";
 int i;
-for (i = 0; i < sizeof(holberton); i++)
+for (i = 0; holberton[i] != '\0'; i++)
 {
 putchar(holberton[i]);
 }
