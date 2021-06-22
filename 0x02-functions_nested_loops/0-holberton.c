@@ -9,9 +9,13 @@
 
 int main(void)
 {
-int i = 0;
-char *holberton = "Holberton";
-putchar(*holberton++);
+// char *holberton = "Holberton";
+char holberton[] = "Holberton";
+int i;
+for (i = 0; i < sizeof(holberton); i++)
+{
+putchar(holberton[i]);
+}
 putchar('\n');
 return (0);
 }
