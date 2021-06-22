@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include "holberton.h"
-/*
-* main-Entry point
+/**
+* main - Entry point
 *
-* Description: a program to print holberton from pointer
-* Return Always 0 (Success)
+* Description: Program to print holberton from pointer
+* Return: Always 0 (Success)
 */
 
 int main(void)
